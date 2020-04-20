@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Intro a JS</h1>
+
+    <div id="mensaje"></div>
+
+    <script type="text/javascript">
+        var nombre = prompt('Cual es tu nombre');
+
+        document.getElementById('mensaje').innerHTML = `Bienvenido ${nombre}`;
+
+        console.log('Hola');
+        console.error('hubo un error');
+        console.clear();
+        console.warn('cuidado');
+        console.time('Hola');
+        console.timeEnd('Hola');
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="Archivos/img/logo.svg" alt="Logo"> 
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+           <!---- <h1>Couleur Coiffure</h1> --> 
+        </div> <!-- contendor -->
+
+    </header>
+
+    <h1 class="fw300 centrar-texto">Contacto</h1>
+    <img src="/1_bienes_raices/Archivos/img/destacada3.jpg" alt="Imagen Principal">
+
+    <main class="seccion contenedor contenido-centrado">
+        <h2 class="fw300 centrar-texto">Rellene el formulario de contacto</h2>
+
+        <form action="">
+
+            <fieldset>
+                <legend>informacion personal</legend>
+
+                <label for="Nombre">Nombre: </label>
+                <input type="text" name="" id="Nombre" placeholder="Tu nombre">
+    
+                <label for="email">Email: </label>
+                <input type="email" name="" id="email" placeholder="Tu email" required>
+    
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" name="" id="telefono" placeholder="Télefono" required>
+    
+                <label for="textarea">Text</label>
+                <textarea name="" id="textarea">Insterta aqui tu texto</textarea>
+    
+                <input type="submit" value="submit">
+            </fieldset>
+
+            <fieldset>
+                <legend>iInformacion sobre propiedad</legend>
+                <label for="opciones">Vende o compra</label>
+                <select name="" id="opciones">
+                    <option value="" disabled selected>-- Seleccione --</option>
+                    <option value="">Compra</option>
+                    <option value="">Vende</option>
+                </select>
+
+                <label for="cantidad">Cantidad</label>
+                <input type="number" name="" id="cantidad" min="0" max="10">
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser contactado: </p>
+                
+                <div class="forma-contaxto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="contacto" id="telefono">
+    
+                    <label for="correo">Correo</label>
+                    <input type="radio" name="contacto" id="correo">
+                </div>
+
+
+                <p>Si tel elija fecha y hora</p>
+                <label for="fecha"></label>
+                <input type="date" name="" id="fecha">
+                <label for="hora"></label>
+                <input type="time" name="" id="hora">
+
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton boton-verde">
+           
+
+
+        </form>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contendedor-footer">
+            <nav class="navegacion navbottom">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <p>todos los derechos reservados &commat;</p>
+        </div>
+
+
+        
+
+    </footer>
+
+
+</body>
+</html>
